@@ -1,0 +1,10 @@
+# robots.txt for Red Allen Diesel
+
+# Allow all crawlers access to main pages
+User-agent: *
+Disallow: /private/       # Block any private folder you might have
+Disallow: /tmp/           # Block temporary files/folders
+Disallow: /cgi-bin/       # Common server scripts folder
+
+# Sitemap location
+Sitemap: https://www.redallendiesel.com/sitemap.xml
